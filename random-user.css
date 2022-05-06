@@ -1,0 +1,73 @@
+body{
+    background-color: grey;
+}
+
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 450px;
+    max-height: 250px;
+    border-radius: 10px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+}
+
+.user_info-1{
+    padding: 10px;
+}
+.user_info-1 h3, p{
+    margin: 5px;
+}
+
+.user_info-1 h3{
+    color: rgb(81, 158, 81);
+}
+.user_info-1 p{
+    color: rgba(22, 130, 163, 0.981);
+}
+
+.user_info-2{
+    padding: 10px;
+    color: rgb(132, 145, 157);
+}
+
+.btn{
+    width: 100%;
+}
+
+#btn{
+    font-size: 18px;
+    background-color: rgb(155, 192, 98);
+    height: 50px;
+    width: 100%;
+    border: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+#btn:hover{
+    background-color: greenyellow;
+}
+
+#photo{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
